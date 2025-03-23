@@ -1,3 +1,26 @@
+body {
+  background-color: #f0f8ff; /* AliceBlue */
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.card:hover {
+  border: solid 2px lightblue;
+background-color: aquamarine;
+  transform: scale(1.05); /* Effet de zoom */
+}
 .App {
   text-align: center;
 }
